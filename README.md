@@ -2,5 +2,5 @@
 A demo game made in Angular and typescript of a virtual pet
 
 
-![alt text](AnguPet/screens/egg1.png)
-![alt text](https://github.com/ahuertam/AnguPet/master/screens/play.png)
+![](https://github.com/ahuertam/AnguPet/screens/blob/master/egg1.png?raw=true)
+![](https://github.com/ahuertam/AnguPet/screens/blob/master/play.png?raw=true)
