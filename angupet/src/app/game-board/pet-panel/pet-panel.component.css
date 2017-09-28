@@ -1,0 +1,9 @@
+.petState {
+    width: 100px;
+    height: 100px;
+}
+
+.ill {
+    filter: hue-rotate(90deg);
+    -webkit-filter: hue-rotate(90deg);
+}

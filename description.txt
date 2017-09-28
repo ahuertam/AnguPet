@@ -1,0 +1,38 @@
+small gameLike that needs to take care of the pet.
+
+it has Life, health && happiness, deppending of the % it will change appearence.
+lifetime : for each minute passed its a year for the pet.
+Max lifetime is 99 years.
+
+with each year passed health base its decreased and life too
+
+GameBoard component:
+
+Includes the following components:
+* Game Controller panel
+* Pet component
+
+- Pet Component -
+it has this components:
+* Status bar
+* Current image of pet
+
+- Game Controller panel -
+it has this orders:
+	( use counters per year to control the times applied)
+ Play with it. -> will reduce life, increases a bit of happiness and  a bit of health.if used more than one time , greatly reduces life and does not increase happiness
+ Give him food.-> Recover life. if given more than one time , increases also happiness but decreases health.
+ Clean it. -> reduce happiness and increases health. if used more than one time , greatly reduces happiness and does not increase health.
+ Send to Sleep- recover Life.if used more than one time , will reduce health.
+
+Game ends:
+Pet is 99 years old
+Pet has 0 life
+
+Bad status:
+at 0 health  pet will start loosing life greatly.
+at 0 happiness pet will start loosing health greatly and a bit of life.
+
+
+
+Future will take account the bad habits of the pet.

@@ -1,0 +1,19 @@
+<div>
+    <div [hidden]="!isDead">
+        <input type="text" [(ngModel)]="username">
+        <button (click)="startGame()">StartGame</button>
+    </div>
+    <div [hidden]="isDead">
+        <h4>Age: {{years}} years</h4>
+        <h4>Life: <progress id="life" value="{{life}}" max="100"></progress></h4>
+
+        <h4>Health:<progress id="health" value="{{health}}" max="100"></progress></h4>
+
+        <h4>Happiness:<progress id="happiness" value="{{happiness}}" max="100"></progress></h4>
+
+    </div>
+    <img [hidden]="!isDead" src="{{egg}}" class="petState">
+    <img [hidden]="isDead" src="{{petState.url}}" [ngClass]="{'ill': petAbnormal.ill}" class="petState">
+    <h4> {{username}} Points: {{calculatePoints()}}</h4>
+
+</div>
