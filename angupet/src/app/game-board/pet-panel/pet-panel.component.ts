@@ -174,6 +174,7 @@ export class PetPanelComponent implements OnInit {
     this.petState = JSON.parse(JSON.stringify(communicationsAmongBoard.currentState));
     this.observAge.unsubscribe();
     this.isDead = true;
+    this.egg = communicationsAmongBoard.petState.dead.url;
     communicationsAmongBoard.flagReset = true;
   }
   calculatePoints() {

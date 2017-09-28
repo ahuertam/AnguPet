@@ -1,6 +1,6 @@
 <div>
     <div [hidden]="!isDead">
-        <input type="text" [(ngModel)]="username">
+        <input type="text" placeholder="PetName: " [(ngModel)]="username">
         <button (click)="startGame()">StartGame</button>
     </div>
     <div [hidden]="isDead">
